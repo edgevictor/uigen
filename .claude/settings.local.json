@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\dev\\\\claude\\\\uigen\\\\uigen\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(Format-Table)",
+      "mcp__playwright"
+    ]
+  }
+}

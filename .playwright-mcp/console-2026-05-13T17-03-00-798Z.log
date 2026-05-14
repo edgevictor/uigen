@@ -1,0 +1,27 @@
+[    1402ms] [INFO] BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]} @ https://aadcdn.msftauth.net/shared/1.0/content/js/BssoInterrupt_Core_9GPLBwek-swGv_tRKLyCgw2.js:17
+[    1463ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://login.microsoftonline.com/favicon.ico:0
+[    4073ms] [LOG] options {top: false} @ https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:0
+[    4075ms] [ERROR] Error parsing data from storage: SyntaxError: Unexpected token '', "ée" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at a (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:2723)
+    at l (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:2969)
+    at t (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:1450)
+    at send (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:250)
+    at window.za (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:3632)
+    at https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:324573
+    at ns (https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:218322)
+    at wu (https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:238543)
+    at https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:235134 @ https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:0
+[    4076ms] [ERROR] Error parsing data from storage: SyntaxError: Unexpected token '', "ée" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at a (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:2723)
+    at u (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:3047)
+    at t (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:1461)
+    at send (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:250)
+    at window.za (https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:1:3632)
+    at https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:324573
+    at ns (https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:218322)
+    at wu (https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:238543)
+    at https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:2:235134 @ https://access.epam.com/auth/resources/lxbkw/login/epam-react/lib/za/za.min.js:0
+[    5585ms] [ERROR] Invalid session start time. @ https://access.epam.com/auth/resources/lxbkw/login/epam-react/static/js/main.04170540.js:1
+[    6119ms] [WARNING] [Elastic APM] /,/journal is not instrumented since component property is not provided @ https://time.epam.com/apps/time/static/js/vendors.3d355aaa.js:1

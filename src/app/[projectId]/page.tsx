@@ -1,6 +1,6 @@
 import { getUser } from "@/actions";
 import { getProject } from "@/actions/get-project";
-import { MainContent } from "@/app/main-content";
+import { DynamicMainContent as MainContent } from "@/app/dynamic-main-content";
 import { redirect } from "next/navigation";
 
 interface PageProps {

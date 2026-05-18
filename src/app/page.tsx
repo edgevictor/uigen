@@ -1,7 +1,7 @@
 import { getUser } from "@/actions";
 import { getProjects } from "@/actions/get-projects";
 import { createProject } from "@/actions/create-project";
-import { MainContent } from "./main-content";
+import { DynamicMainContent as MainContent } from "./dynamic-main-content";
 import { redirect } from "next/navigation";
 
 export default async function Home() {
